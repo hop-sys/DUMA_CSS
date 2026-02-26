@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles3.css">
+</head>
+<body>
+    <h1>CSS IDs vs Classes</h1>
+    <p id="para1">CSS IDs are used to identify a single HTML element on a webpage. An ID must be unique, meaning it should not be assigned to more than one element. IDs are mainly used when a specific element needs a special functionality or unique style.</p>
+    <p id="para2">Because IDs are unique, they are commonly used for elements such as headers, main containers or sections that appear only once in a page. IDs can also be targeted easily using Javascript, making them dynamic web applications.</p>
+    <p id="para3">In CSS, IDs have a higher priority compared to classe. This means that styles applied using an ID will override class styles if ther is a conflict. Due to this higher specificity, IDs should be used carefully.</p>
+    <!-- classes selectors -->
+    <h1>Welcome</h1>
+    <p class="para4">CSS Classes are used to apply the same styles to multiple HTML elements. Unlike IDs Classes can be reused many times within the same page. This makes Classes ideal for styling group of elements consitently.</p>
+    <p class="para4">For example, if several paragraphs need the vsame font size, color, or spacing, a single class can be applied to all of them. This reduces code repetition and makes the stylesheet easier to manage and update</p>
+    <p class="para4">Classes are also useful when designing responsive layouts and reusable components. They allow developers to maintain clean and organized css while keeping the HTML structure flexible.</p>
+    <!-- division(div) -->
+     <div id="d1">
+        This div element is identified using a unique ID. It can be styled separate from other divs and is often used to hold specific sections such as content area, sidebans or banners.
+     </div>
+     <div id="d2">
+        This second div also has it's unique ID, allowing it to have different styles from the first div. Using separate IDs hrlps control layout and appearance more precisely.
+     </div>
+</body>
+</html>

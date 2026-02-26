@@ -1,0 +1,73 @@
+body{
+    background-color: rgb(240, 128, 190);
+}
+h1{
+    letter-spacing: 20px;
+    text-align: center;
+    word-spacing: 20px;
+}
+p{
+    text-align: center;
+    line-height: 2;
+}
+/* box model */
+h2{
+    color: white;
+    background-color:rgb(151, 9, 9) ;
+    height: 400px;
+    width: 900px;
+    /* padding */
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-left: 40px;
+    /* margin */
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-bottom:50px ;
+    margin-left: 60px;
+    /* border */
+    border-top:10px double black;
+    border-right: 10px solid rgb(155, 160, 143);
+    border-bottom: 10px solid green;
+    border-left: 10px solid purple;
+}
+a{
+    color: white;
+    padding: 10px;
+    background-color: rgb(95, 12, 12);
+}
+a:hover{
+    background-color:royalblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
